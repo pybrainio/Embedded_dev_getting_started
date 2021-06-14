@@ -97,7 +97,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    HAL_Delay(100);
+    HAL_GPIO_TogglePin(LD4_GPIO_Port, LD4_Pin);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
